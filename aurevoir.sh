@@ -1,7 +1,15 @@
 #!/usr/bin/env bash
 
 for i in $(seq 0 100); do
+   #!/usr/bin/env bash
+
+for i in $(seq 0 100); do
     echo "$i"
+    if [ "$i" -eq 10 ]; then
+        echo "au revoir user $USER"
+    fi
+    sleep 0.5
+done echo "$i"
     if [ "$i" -eq 10 ]; then
         echo "au revoir user $USER"
     fi
